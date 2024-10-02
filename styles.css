@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+#calculator{
+    font-family: "Quicksand", sans-serif;
+    background-color: hsl(0, 0%,30%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100000px;
+    padding-right: 400px; 
+    
+    padding-top: 60px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 1%, 27%);
+    color: #f8f8f8;
+
+}
+
+#keys{      
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color:hsl(0, 0%, 22%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%)
+}
+button:active{
+    background-color: hsl(0, 0%, 60%);
+}
+.operator-btn{
+    background-color: hsl(41, 88%, 56%);
+}
+.operator-btn:hover{
+    background-color: hsl(41, 93%, 48%);
+}
+.operator-btn:active{
+    background-color: hsl(41, 79%, 75%);
+}
+.operator-btn{
+    color: black;
+}
